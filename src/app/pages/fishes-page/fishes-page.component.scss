@@ -40,10 +40,15 @@
     height: auto;
   }
   p {
-    padding: 10px;
+    padding: 20px;
     border-radius: 20px;
     color: #422f2d;
     background-color: #fbcd59;
     font-size: 12px;
+    text-align: justify;
+  }
+  .blathers {
+    width: 20px;
+    padding-right: 10px;
   }
 }
