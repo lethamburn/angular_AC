@@ -24,6 +24,13 @@ const routes: Routes = [
       ),
   },
   {
+    path: 'songs',
+    loadChildren: () =>
+      import('./pages/songs-page/songs-page.module').then(
+        (m) => m.SongsPageModule
+      ),
+  },
+  {
     path: '',
     redirectTo: 'home',
     pathMatch: 'full',

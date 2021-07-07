@@ -1,1 +1,10 @@
-<p>bugs-page works!</p>
+<section class="section">
+  <div *ngFor="let bug of bugs">
+    <figure class="section__figure">
+      <h2>{{ bug.name["name-EUen"] | titlecase }}</h2>
+      <h5>{{ bug["catch-phrase"] }}</h5>
+        <img src="{{ bug.image_uri }}" alt="" />
+      <p>{{ bug["museum-phrase"] }}</p>
+    </figure>
+  </div>
+</section>

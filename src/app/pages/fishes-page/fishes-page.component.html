@@ -1,1 +1,10 @@
-<p>fishes-page works!</p>
+<section class="section">
+  <div *ngFor="let fish of fishes">
+    <figure class="section__figure">
+      <h2>{{ fish.name["name-EUen"] | titlecase }}</h2>
+      <h5>{{ fish["catch-phrase"] }}</h5>
+      <img src="{{ fish.image_uri }}" alt="" />
+      <p>{{ fish["museum-phrase"] }}</p>
+    </figure>
+  </div>
+</section>
