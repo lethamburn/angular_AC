@@ -2,17 +2,18 @@
   <div *ngFor="let bug of bugs">
     <figure class="section__figure">
       <h2>{{ bug.name["name-EUen"] | titlecase }}</h2>
-      <h5>{{ bug["catch-phrase"] }}</h5>
+      <h5>"{{ bug["catch-phrase"] }}"</h5>
       <img src="{{ bug.image_uri }}" alt="" />
-
-      <p>
-        <span
-          ><img
-            class="blathers"
-            src="https://static.wikia.nocookie.net/animalcrossingpocketcamp_gamepedia_en/images/4/46/Blathers_Icon.png"
-            alt="" /></span
-        >{{ bug["museum-phrase"] }}
-      </p>
+	<!--   <div class="description">
+          <p>
+            <span
+              ><img
+                class="blathers"
+                src="https://static.wikia.nocookie.net/animalcrossingpocketcamp_gamepedia_en/images/4/46/Blathers_Icon.png"
+                alt="" /></span
+            >{{ bug["museum-phrase"] }}
+          </p>
+        </div> -->
     </figure>
   </div>
 </section>

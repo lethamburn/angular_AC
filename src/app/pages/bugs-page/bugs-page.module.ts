@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { BugsPageRoutingModule } from './bugs-page-routing.module';
 import { BugsPageComponent } from './bugs-page.component';
+import { SimplebarAngularModule } from 'simplebar-angular';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { BugsPageComponent } from './bugs-page.component';
   ],
   imports: [
     CommonModule,
-    BugsPageRoutingModule
+    BugsPageRoutingModule,
+    SimplebarAngularModule
   ]
 })
 export class BugsPageModule { }

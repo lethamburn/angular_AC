@@ -1,10 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
+
 ul {
   display: flex;
   justify-content: center;
+  align-items: center;
   list-style-type: none;
   margin: 0;
 }
 li {
+  line-height: 19px;
+  align-items: center;
   font-family: "Otomanopee One", sans-serif;
   display: inline-block;
   border: 4px solid #422f2d;
@@ -15,6 +20,7 @@ li {
   padding-left: 10px;
   padding-right: 10px;
   color: #fbcd59;
+  height: 20px;
 }
 
 li a:hover {
@@ -50,3 +56,15 @@ a:active {
   text-decoration: none;
   color: black;
 }
+p {
+  font-family: "Otomanopee One", sans-serif;
+  font-size: 10px;
+}
+footer{
+  text-align: center;
+
+  span{
+    font-size: 8px;
+  }
+}
+

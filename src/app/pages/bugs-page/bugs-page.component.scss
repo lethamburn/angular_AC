@@ -1,51 +1,60 @@
 .section {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-
-  &__figure {
-    border: 4px solid #422f2d;
-    font-family: "Otomanopee One", sans-serif;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    width: 300px;
-    background-color: white;
-    border-radius: 20px;
-    background-image: url(../../../assets/card_background.jpg);
-    background-size: cover;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+  
+	&__figure {
+	  border: 4px solid #422f2d;
+	  font-family: "Otomanopee One", sans-serif;
+	  color: white;
+	  text-align: center;
+	  padding: 10px;
+	  width: 200px;
+	  height: auto;
+	  background-color: white;
+	  border-radius: 20px;
+	  background-image: url(../../../assets/card_background.jpg);
+	  background-size: cover;
+	  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	  margin: 10px;
+	}
+	h2 {
+	  padding: 5px;
+	  border-radius: 20px;
+	  color: #422f2d;
+	  background-color: #fbcd59;
+	  font-size: 12px;
+	}
+	h5 {
+	  padding: 10px;
+	  border-radius: 20px;
+	  color: #422f2d;
+	  background-color: #fbcd59;
+	  font-size: 10px;
+	}
+	img {
+	  border-radius: 20px;
+	  width: 200px;
+	  height: auto;
+	}
+	p {
+	  padding: 20px;
+	  text-align: justify;
+	  border-radius: 20px;
+	  color: #422f2d;
+	  background-color: #fbcd59;
+	  font-size: 12px;
+	}
+  
+	.blathers {
+	  width: 20px;
+	  padding-right: 10px;
+	}
+	.description {
+	  text-overflow: ellipsis;
+	  white-space: nowrap;
+	  overflow: hidden;
+	  text-overflow: ellipsis;
+	}
   }
-  h2 {
-    padding: 5px;
-    border-radius: 20px;
-    color: #422f2d;
-    background-color: #fbcd59;
-    font-size: 18px;
-  }
-  h5 {
-    padding: 10px;
-    border-radius: 20px;
-    color: #422f2d;
-    background-color: #fbcd59;
-    font-size: 14px;
-  }
-  img {
-    border-radius: 20px;
-    width: 200px;
-    height: auto;
-  }
-  p {
-    padding: 20px;
-    text-align: justify;
-    border-radius: 20px;
-    color: #422f2d;
-    background-color: #fbcd59;
-    font-size: 12px;
-  }
-
-  .blathers {
-    width: 20px;
-    padding-right: 10px;
-  }
-}
+  
